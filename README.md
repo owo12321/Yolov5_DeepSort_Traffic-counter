@@ -2,7 +2,7 @@
 基于Yolov5_DeepSort的移动物体计数器，可以统计车流或人流量等  
 本作品基于此项目实现：https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch 在它的基础上做了一些改动，实现了统计画面中经过的物体数量的功能，包括车流、人群等。
 
-![image](https://github.com/owo12321/Yolov5_DeepSort_Traffic-counter/blob/main/test.gif)
+
 
 ## 1、环境配置
 下载项目文件夹后，在命令行中进入项目文件夹，执行以下代码配置环境：
