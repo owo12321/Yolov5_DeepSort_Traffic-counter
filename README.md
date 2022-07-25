@@ -9,6 +9,11 @@
 ```
 pip install -r requirements.txt
 ```
+在Yolov5_DeepSort_Traffic-counter/deep_sort_pytorch/deep_sort/deep/checkpoint路径下需要下载一个文件，链接为
+```
+链接：https://pan.baidu.com/s/1BwMUM9JGRhMQgmjTu_HXcw?pwd=bwux 
+提取码：bwux 
+```
 
 ## 2、检测原理
 Yolov5_DeepSort会跟踪画面上检测出来的物体，并给每个框标上了序号，当有一个方框跨过检测线时，计数器就会+1  
