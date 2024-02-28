@@ -3,7 +3,8 @@
 本作品基于此项目实现：https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch  
 实现了统计画面中通过检测线的物体数量的功能，包括车流、人群等。
 
-![image](https://github.com/owo12321/Yolov5_DeepSort_Traffic-counter/blob/main/test3.gif)
+![image](https://github.com/owo12321/Yolov5_DeepSort_Traffic-counter/blob/main/test3.gif)  
+测试素材来源：https://www.bilibili.com/video/BV1yL4y1q7yb
 
 ## 0、更新
 1.可以绘制多条检测线  
