@@ -25,29 +25,37 @@ import torch.backends.cudnn as cudnn
 ########################################
 
 
-source_dir = 'inference/input/test.mp4' # '0'    # 要打开的文件。若要调用摄像头，需要设置为字符串'0'，而不是数字0，按q退出播放
+source_dir = 'inference/input/test3.mp4' # '0'    # 要打开的文件。若要调用摄像头，需要设置为字符串'0'，而不是数字0，按q退出播放
 output_dir = 'inference/output' # 要保存到的文件夹
 show_video = True   # 运行时是否显示
 save_video = True   # 是否保存运行结果视频
-save_text = True    # 是否保存结果数据到txt文件中，result.txt的格式是(帧序号,框序号,框到左边距离,框到顶上距离,框横长,框竖高,-1,-1,-1,-1)，number.txt的格式是(帧序号，直至当前帧跨过线的框数)
+save_text = True    # 是否保存结果数据到txt文件中，
+                    # result.txt的格式是(帧序号,框序号,框到左边距离,框到顶上距离,框横长,框竖高,-1,-1,-1,-1)，
+                    # number.txt的内容是统计到第几帧时每条线沿两个方向的跨线物体数
 class_list = [2]    # 类别序号，在coco_classes.txt中查看（注意是序号不是行号），可以有一个或多个类别
-big_to_small = 0    # 0表示从比线小的一侧往大的一侧，1反之
-point_idx = 0       # 要检测的方框顶点号(0, 1, 2, 3)，看下边的图，当方框的顶点顺着big_to_small指定的方向跨过检测线时，计数器会+1
-line = [0, 540, 1280, 540]   # 检测线的两个段点的xy坐标，总共4个数
+point_idx = 0       # 方框的检测点位置(0, 1, 2, 3, 4)，看下边的图，当一个方框的检测点跨过检测线时，统计数会+1
+
+lines = [           # 在这里定义检测线
+    # 一条线就是一个list，内容为[x1, y1, x2, y2, (R, G, B), 线的粗细]，例如：
+    [300, 1080, 1250, 600, (255,0,0), 2],
+    [1660, 610, 1920, 900, (0,255,0), 2],
+
+]
 
 
 ########################################
 # 一些参数的定义
 # x是点到左边的距离，y是点到顶上的距离
-# 小于则说明点落在直线与x轴所夹的锐角区域
+# 线的小侧是线与x轴所夹的锐角区域
 
-# 方框顶点的序号
-#    0              1
-#    |--------------|
-#    |              |
-#    |              |
-#    |--------------|
-#    3              2
+# 方框检测点的序号
+#    1__________________2
+#    |                  |
+#    |                  |
+#    |      0(中心点)   |
+#    |                  |
+#    |__________________|
+#    4                  3
 
 
 #    |-------> x轴
@@ -57,25 +65,8 @@ line = [0, 540, 1280, 540]   # 检测线的两个段点的xy坐标，总共4个�
 #    y轴
 
 ########################################
-# 一些数据处理
-
-# x_i、y_i表示x、y在points数组中的下标
-if point_idx == 0:
-    x_i = 0
-    y_i = 1
-elif point_idx == 1:
-    x_i = 2
-    y_i = 1
-elif point_idx == 2:
-    x_i = 2
-    y_i = 3
-elif point_idx == 3:
-    x_i = 0
-    y_i = 3
-
-
-
-def point_bigger(line, x, y) -> bool:
+# 判断点是否位于线的大侧
+def big_side(line, x, y) -> bool:
     x1 = line[0]
     y1 = line[1]
     x2 = line[2]
@@ -98,38 +89,9 @@ def point_bigger(line, x, y) -> bool:
     else:
         return False
 
-
-def point_smaller(line, x, y) -> bool:
-    x1 = line[0]
-    y1 = line[1]
-    x2 = line[2]
-    y2 = line[3]
-
-    if y1 == y2:
-        if y < y1:
-            return True
-        elif y >= y1:
-            return False
-
-    if x1 == x2:
-        if x < x1:
-            return True
-        elif x >= x1:
-            return False
-
-    if (x - x1)/(x2 - x1) < (y - y1)/(y2 - y1):
-        return True
-    else:
-        return False
-
-
-def judge_size(direction, line, x, y):
-    if direction == 0:  # 从小到大
-        return point_smaller(line, x, y)
-    elif direction == 1:
-        return point_bigger(line, x, y)
-    else:
-        print('方向错误，只能为0或1！')
+# 每条线添加一个list，统计大->小、小->大两个方向穿过检测线的物体数，下标为6
+for line in lines:
+    line.append([0,0])
 
 ########################################
 
@@ -219,9 +181,11 @@ def detect(opt):
 
 #####################################################
 
-    total_num = 0
-    last_frame_point = []
-    has_pase_point = []
+    # point_list统计所有点与线之间的位置关系
+    point_list = []
+    for i in range(len(lines)):
+        point_list.append([[],[]]) # 分别统计位于大侧、小侧的点
+
 
 #####################################################
 
@@ -238,6 +202,7 @@ def detect(opt):
     # Initialize
     device = select_device(opt.device)
     ##################################
+    # 打印使用的设备
     print(device)
     ##################################
     if os.path.exists(out):
@@ -344,25 +309,40 @@ def detect(opt):
                     # x是点到左边的距离，y是点到顶上的距离
                     #############################################
 
-                    if last_frame_point == []:
-                        for point in outputs:
-                            if judge_size(big_to_small, line, point[x_i], point[y_i]):
-                                last_frame_point.append(point[-1])
-                    else:
-                        for point in outputs:
-                            if (point[-1] in last_frame_point) and (not judge_size(big_to_small, line, point[x_i], point[y_i])):
-                                last_frame_point.remove(point[-1])
-                                has_pase_point.append(point[-1])
-                                total_num += 1
-                            elif (point[-1] not in last_frame_point) and judge_size(big_to_small, line, point[x_i], point[y_i]):
-                                last_frame_point.append(point[-1])
-                        for point_idx in last_frame_point:
-                            if point_idx not in outputs[:, -1]:
-                                last_frame_point.remove(point_idx)
-                    # print()
-                    # print('last_frame_point = {}'.format(last_frame_point))
-                    # print('has_pase_point   = {}'.format(has_pase_point))
-                    # print('total_num = {}'.format(total_num))
+                    for point in outputs:
+                        # 计算检测点坐标
+                        if point_idx == 0:
+                            point_x = int(point[0]+point[2])/2
+                            point_y = int(point[1]+point[3])/2
+                        elif point_idx == 1:
+                            point_x = point[0]
+                            point_y = point[1]
+                        elif point_idx == 2:
+                            point_x = point[2]
+                            point_y = point[1]
+                        elif point_idx == 3:
+                            point_x = point[2]
+                            point_y = point[3]
+                        elif point_idx == 4:
+                            point_x = point[0]
+                            point_y = point[3]
+                        
+                        # 计算检测点与每条线的位置关系
+                        for line_idx, line in enumerate(lines):
+                            if big_side(line, point_x, point_y):                # 点此刻位于大侧
+                                if point[-1] not in point_list[line_idx][0]:    # 若不在大侧list，则加入
+                                    point_list[line_idx][0].append(point[-1])
+                                if point[-1] in point_list[line_idx][1]:        # 若此前位于小侧list，说明沿着小->大方向穿过了检测线
+                                    line[6][1] += 1                             # 统计数+1，并从小侧list移除
+                                    point_list[line_idx][1].remove(point[-1])
+                            
+                            else:
+                                if point[-1] not in point_list[line_idx][1]:
+                                    point_list[line_idx][1].append(point[-1])
+                                if point[-1] in point_list[line_idx][0]:
+                                    line[6][0] += 1
+                                    point_list[line_idx][0].remove(point[-1])
+
 
                     #############################################
 
@@ -389,12 +369,23 @@ def detect(opt):
             print('%sDone. (%.3fs)' % (s, t2 - t1))
 
             #########################################################
+            # 画线
+            for line in lines:
+                cv2.line(im0, (line[0], line[1]), (line[2], line[3]), line[4], line[5])   # 画布、起点坐标、终点坐标、线颜色、线粗细
+            # 标注文字
+            gap = int(frame_w / len(lines))
+            for line_idx, line in enumerate(lines):
+                cv2.putText(im0, f'dir1 = {line[6][0]}', (gap*line_idx+25, 25), cv2.FONT_HERSHEY_COMPLEX, 1, line[4], 2)    # 画布、内容、左下角坐标、字体、字号（数字越大字越大）、字颜色、笔画粗细
+                cv2.putText(im0, f'dir2 = {line[6][1]}', (gap*line_idx+25, 50), cv2.FONT_HERSHEY_COMPLEX, 1, line[4], 2)    # 画布、内容、左下角坐标、字体、字号（数字越大字越大）、字颜色、笔画粗细
 
-            cv2.line(im0, (line[0], line[1]), (line[2], line[3]), (255, 0, 0), 2)   # 画布、起点坐标、终点坐标、线颜色、线粗细
-            cv2.putText(im0, f'num = {total_num}', (50, 50), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 0, 0), 2)    # 画布、内容、左下角坐标、字体、字号（数字大字跟着大）、字颜色、笔画粗细
+            # 写入保存文件
             if save_txt:
                 with open(out+'/number.txt', 'a') as f:
-                    f.write(f'{frame_idx}\t{total_num}\n')
+                    f.write(f'frame{frame_idx}:\n')
+                    for line_idx, line in enumerate(lines):
+                        f.write(f'line{line_idx}\tdirection1:{line[6][0]}, direction2:{line[6][1]}\n')
+                    f.write('\n')
+
 
 
             #########################################################
