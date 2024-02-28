@@ -10,8 +10,8 @@ opencv-python==4.5.3.56
 Pillow==9.2.0
 PyYAML==5.4.1
 scipy==1.7.1
-# torch==1.7.1
-# torchvision==0.8.2
+torch==1.7.1
+torchvision==0.8.2
 tqdm==4.64.1
 
 # plotting ------------------------------------
