@@ -1,0 +1,1200 @@
+frame0:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:0
+
+frame1:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:0
+
+frame2:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:0
+
+frame3:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:0
+
+frame4:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:0
+
+frame5:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:0
+
+frame6:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame7:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame8:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame9:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame10:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame11:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame12:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame13:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame14:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame15:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame16:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame17:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame18:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame19:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame20:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame21:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame22:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame23:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame24:
+line0	direction1:0, direction2:0
+line1	direction1:0, direction2:1
+
+frame25:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame26:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame27:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame28:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame29:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame30:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame31:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame32:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame33:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame34:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame35:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame36:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame37:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame38:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame39:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame40:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame41:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame42:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame43:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame44:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame45:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame46:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame47:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame48:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame49:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame50:
+line0	direction1:1, direction2:0
+line1	direction1:0, direction2:1
+
+frame51:
+line0	direction1:2, direction2:1
+line1	direction1:0, direction2:1
+
+frame52:
+line0	direction1:2, direction2:1
+line1	direction1:0, direction2:1
+
+frame53:
+line0	direction1:2, direction2:1
+line1	direction1:0, direction2:1
+
+frame54:
+line0	direction1:2, direction2:1
+line1	direction1:0, direction2:1
+
+frame55:
+line0	direction1:2, direction2:1
+line1	direction1:0, direction2:1
+
+frame56:
+line0	direction1:2, direction2:1
+line1	direction1:0, direction2:1
+
+frame57:
+line0	direction1:2, direction2:1
+line1	direction1:0, direction2:1
+
+frame58:
+line0	direction1:2, direction2:1
+line1	direction1:0, direction2:1
+
+frame59:
+line0	direction1:2, direction2:1
+line1	direction1:0, direction2:1
+
+frame60:
+line0	direction1:2, direction2:1
+line1	direction1:0, direction2:1
+
+frame61:
+line0	direction1:3, direction2:1
+line1	direction1:0, direction2:1
+
+frame62:
+line0	direction1:3, direction2:1
+line1	direction1:0, direction2:1
+
+frame63:
+line0	direction1:3, direction2:1
+line1	direction1:0, direction2:1
+
+frame64:
+line0	direction1:3, direction2:1
+line1	direction1:0, direction2:1
+
+frame65:
+line0	direction1:3, direction2:1
+line1	direction1:0, direction2:1
+
+frame66:
+line0	direction1:3, direction2:1
+line1	direction1:0, direction2:1
+
+frame67:
+line0	direction1:3, direction2:1
+line1	direction1:0, direction2:1
+
+frame68:
+line0	direction1:3, direction2:1
+line1	direction1:0, direction2:1
+
+frame69:
+line0	direction1:4, direction2:1
+line1	direction1:0, direction2:1
+
+frame70:
+line0	direction1:4, direction2:1
+line1	direction1:0, direction2:1
+
+frame71:
+line0	direction1:4, direction2:1
+line1	direction1:0, direction2:1
+
+frame72:
+line0	direction1:4, direction2:1
+line1	direction1:0, direction2:1
+
+frame73:
+line0	direction1:4, direction2:1
+line1	direction1:0, direction2:1
+
+frame74:
+line0	direction1:4, direction2:1
+line1	direction1:0, direction2:1
+
+frame75:
+line0	direction1:4, direction2:1
+line1	direction1:0, direction2:1
+
+frame76:
+line0	direction1:4, direction2:1
+line1	direction1:0, direction2:1
+
+frame77:
+line0	direction1:4, direction2:2
+line1	direction1:0, direction2:1
+
+frame78:
+line0	direction1:4, direction2:2
+line1	direction1:0, direction2:1
+
+frame79:
+line0	direction1:4, direction2:2
+line1	direction1:0, direction2:1
+
+frame80:
+line0	direction1:4, direction2:2
+line1	direction1:0, direction2:1
+
+frame81:
+line0	direction1:4, direction2:2
+line1	direction1:0, direction2:1
+
+frame82:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame83:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame84:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame85:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame86:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame87:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame88:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame89:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame90:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame91:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame92:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame93:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame94:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame95:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame96:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame97:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame98:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame99:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame100:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame101:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame102:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame103:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame104:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame105:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame106:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame107:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame108:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame109:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame110:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame111:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:1
+
+frame112:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:2
+
+frame113:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:2
+
+frame114:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:2
+
+frame115:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:2
+
+frame116:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:2
+
+frame117:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:2
+
+frame118:
+line0	direction1:4, direction2:3
+line1	direction1:0, direction2:2
+
+frame119:
+line0	direction1:4, direction2:4
+line1	direction1:0, direction2:2
+
+frame120:
+line0	direction1:4, direction2:4
+line1	direction1:0, direction2:2
+
+frame121:
+line0	direction1:4, direction2:4
+line1	direction1:0, direction2:2
+
+frame122:
+line0	direction1:4, direction2:4
+line1	direction1:0, direction2:2
+
+frame123:
+line0	direction1:4, direction2:4
+line1	direction1:0, direction2:2
+
+frame124:
+line0	direction1:4, direction2:4
+line1	direction1:0, direction2:2
+
+frame125:
+line0	direction1:5, direction2:4
+line1	direction1:0, direction2:2
+
+frame126:
+line0	direction1:5, direction2:4
+line1	direction1:0, direction2:2
+
+frame127:
+line0	direction1:5, direction2:4
+line1	direction1:0, direction2:2
+
+frame128:
+line0	direction1:5, direction2:4
+line1	direction1:0, direction2:2
+
+frame129:
+line0	direction1:5, direction2:4
+line1	direction1:0, direction2:2
+
+frame130:
+line0	direction1:5, direction2:4
+line1	direction1:0, direction2:2
+
+frame131:
+line0	direction1:5, direction2:4
+line1	direction1:0, direction2:2
+
+frame132:
+line0	direction1:6, direction2:4
+line1	direction1:0, direction2:2
+
+frame133:
+line0	direction1:6, direction2:4
+line1	direction1:0, direction2:2
+
+frame134:
+line0	direction1:6, direction2:4
+line1	direction1:0, direction2:2
+
+frame135:
+line0	direction1:6, direction2:4
+line1	direction1:0, direction2:2
+
+frame136:
+line0	direction1:6, direction2:4
+line1	direction1:0, direction2:2
+
+frame137:
+line0	direction1:6, direction2:4
+line1	direction1:0, direction2:2
+
+frame138:
+line0	direction1:6, direction2:4
+line1	direction1:0, direction2:2
+
+frame139:
+line0	direction1:6, direction2:4
+line1	direction1:0, direction2:2
+
+frame140:
+line0	direction1:6, direction2:4
+line1	direction1:0, direction2:2
+
+frame141:
+line0	direction1:6, direction2:4
+line1	direction1:0, direction2:2
+
+frame142:
+line0	direction1:6, direction2:4
+line1	direction1:0, direction2:2
+
+frame143:
+line0	direction1:6, direction2:4
+line1	direction1:0, direction2:2
+
+frame144:
+line0	direction1:6, direction2:4
+line1	direction1:0, direction2:2
+
+frame145:
+line0	direction1:6, direction2:4
+line1	direction1:0, direction2:2
+
+frame146:
+line0	direction1:6, direction2:4
+line1	direction1:0, direction2:2
+
+frame147:
+line0	direction1:6, direction2:4
+line1	direction1:0, direction2:2
+
+frame148:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame149:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame150:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame151:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame152:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame153:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame154:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame155:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame156:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame157:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame158:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame159:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame160:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame161:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame162:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame163:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame164:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame165:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame166:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame167:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame168:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame169:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame170:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame171:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame172:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame173:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame174:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame175:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame176:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame177:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame178:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame179:
+line0	direction1:6, direction2:5
+line1	direction1:0, direction2:2
+
+frame180:
+line0	direction1:6, direction2:6
+line1	direction1:0, direction2:2
+
+frame181:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:2
+
+frame182:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:2
+
+frame183:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:2
+
+frame184:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:2
+
+frame185:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:2
+
+frame186:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:2
+
+frame187:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:2
+
+frame188:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:2
+
+frame189:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:3
+
+frame190:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:3
+
+frame191:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:3
+
+frame192:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:3
+
+frame193:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:3
+
+frame194:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:3
+
+frame195:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:3
+
+frame196:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:3
+
+frame197:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:3
+
+frame198:
+line0	direction1:7, direction2:6
+line1	direction1:0, direction2:3
+
+frame199:
+line0	direction1:8, direction2:6
+line1	direction1:0, direction2:3
+
+frame200:
+line0	direction1:8, direction2:6
+line1	direction1:0, direction2:3
+
+frame201:
+line0	direction1:8, direction2:7
+line1	direction1:0, direction2:3
+
+frame202:
+line0	direction1:8, direction2:7
+line1	direction1:0, direction2:3
+
+frame203:
+line0	direction1:8, direction2:7
+line1	direction1:0, direction2:3
+
+frame204:
+line0	direction1:8, direction2:7
+line1	direction1:0, direction2:3
+
+frame205:
+line0	direction1:8, direction2:8
+line1	direction1:0, direction2:3
+
+frame206:
+line0	direction1:8, direction2:8
+line1	direction1:0, direction2:3
+
+frame207:
+line0	direction1:8, direction2:8
+line1	direction1:0, direction2:3
+
+frame208:
+line0	direction1:8, direction2:8
+line1	direction1:0, direction2:3
+
+frame209:
+line0	direction1:8, direction2:8
+line1	direction1:0, direction2:3
+
+frame210:
+line0	direction1:8, direction2:8
+line1	direction1:0, direction2:3
+
+frame211:
+line0	direction1:8, direction2:8
+line1	direction1:0, direction2:3
+
+frame212:
+line0	direction1:8, direction2:8
+line1	direction1:0, direction2:3
+
+frame213:
+line0	direction1:8, direction2:8
+line1	direction1:0, direction2:3
+
+frame214:
+line0	direction1:8, direction2:8
+line1	direction1:0, direction2:3
+
+frame215:
+line0	direction1:8, direction2:8
+line1	direction1:0, direction2:3
+
+frame216:
+line0	direction1:8, direction2:8
+line1	direction1:0, direction2:3
+
+frame217:
+line0	direction1:8, direction2:8
+line1	direction1:0, direction2:3
+
+frame218:
+line0	direction1:8, direction2:8
+line1	direction1:0, direction2:3
+
+frame219:
+line0	direction1:8, direction2:8
+line1	direction1:0, direction2:3
+
+frame220:
+line0	direction1:8, direction2:8
+line1	direction1:0, direction2:3
+
+frame221:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame222:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame223:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame224:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame225:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame226:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame227:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame228:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame229:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame230:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame231:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame232:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame233:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame234:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame235:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame236:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame237:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame238:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame239:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame240:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame241:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame242:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame243:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame244:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame245:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame246:
+line0	direction1:9, direction2:8
+line1	direction1:0, direction2:3
+
+frame247:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame248:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame249:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame250:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame251:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame252:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame253:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame254:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame255:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame256:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame257:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame258:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame259:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame260:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame261:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame262:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame263:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame264:
+line0	direction1:9, direction2:9
+line1	direction1:0, direction2:3
+
+frame265:
+line0	direction1:9, direction2:10
+line1	direction1:0, direction2:3
+
+frame266:
+line0	direction1:9, direction2:10
+line1	direction1:0, direction2:3
+
+frame267:
+line0	direction1:9, direction2:10
+line1	direction1:0, direction2:3
+
+frame268:
+line0	direction1:9, direction2:10
+line1	direction1:0, direction2:3
+
+frame269:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame270:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame271:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame272:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame273:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame274:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame275:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame276:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame277:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame278:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame279:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame280:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame281:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame282:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame283:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame284:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame285:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame286:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame287:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame288:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame289:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame290:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame291:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame292:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame293:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame294:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame295:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame296:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame297:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame298:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
+frame299:
+line0	direction1:10, direction2:10
+line1	direction1:0, direction2:3
+
