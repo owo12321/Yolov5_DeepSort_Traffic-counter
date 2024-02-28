@@ -11,22 +11,25 @@
 2.每条检测线可以同时统计两个跨线方向的流量  
 
 ## 1、环境配置
+python3.8、cuda10.2  
 下载项目文件夹后，在命令行中进入项目文件夹，执行以下代码配置环境：
 ```
 pip install -r requirements.txt
 ```
-在Yolov5_DeepSort_Traffic-counter/deep_sort_pytorch/deep_sort/deep/checkpoint路径下需要下载一个文件
+此环境能够正常运行，其它包版本请自行测试  
+  
+在./Yolov5_DeepSort_Traffic-counter/deep_sort_pytorch/deep_sort/deep/checkpoint路径下需要下载一个文件
 ```
 链接：https://pan.baidu.com/s/1BwMUM9JGRhMQgmjTu_HXcw?pwd=bwux 
 提取码：bwux 
 ```
-默认使用Yolov5的5.0版本的yolov5s.pt模型文件，建议训练自己的数据集，参考  
+默认使用Yolov5的5.0版本的yolov5s.pt模型文件，位于./yolov5/weights/yolov5s.pt，建议训练自己的数据集，参考  
 https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
 
 
 ## 2、检测原理
 Yolov5_DeepSort会跟踪画面上检测出来的物体，并给每个框标上了序号，当有一个方框跨过检测线时，计数器就会+1  
-用户可以指定检测线的起点终点坐标，也可以指定框的四个顶点或中心点哪一个作为检测点  
+用户可以定义多条检测线，也可以指定框的四个顶点或中心点哪一个作为检测点  
 具体的参数设定见第3点
 
 
